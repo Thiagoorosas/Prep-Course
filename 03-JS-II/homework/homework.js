@@ -87,7 +87,11 @@ function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
+<<<<<<< HEAD
    return numero === 10 || numero === 5;
+=======
+  return numero === 10 || numero === 5;
+>>>>>>> aa533852571a35df5f910026691be1242399df24
 }
 
 function estaEnRango(numero) {
@@ -113,11 +117,19 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
+<<<<<<< HEAD
   if(numero % 15 === 0) return 'fizzbuzz';
   if(numero % 3 === 0) return 'fizz';
   if(numero % 5 === 0) return 'buzz';
   return numero;
 }
+=======
+   if(numero % 15 === 0) return 'fizzbuzz';
+  if(numero % 3 === 0) return 'fizz';
+  if(numero % 5 === 0) return 'buzz';
+  return numero;
+  }
+>>>>>>> aa533852571a35df5f910026691be1242399df24
 
 function operadoresLogicos(num1, num2, num3) {
   //La función recibe tres números distintos. 
@@ -173,7 +185,11 @@ function esVerdadero(valor){
 function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
+<<<<<<< HEAD
   //Escribe tu código aquí   
+=======
+  //Escribe tu código aquí 
+>>>>>>> aa533852571a35df5f910026691be1242399df24
   let arraytabladel6 = [] 
   for (let i = 0; i < 11; i++){
     arraytabladel6.push(6*i)
@@ -186,17 +202,27 @@ function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
   if (numero > 99 && numero < 1000){
+<<<<<<< HEAD
     return true; 
   }
   return false;
   
+=======
+    return true 
+  }
+  return false
+>>>>>>> aa533852571a35df5f910026691be1242399df24
 }
 
 function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+<<<<<<< HEAD
    var a = numero;
+=======
+  var a = numero;
+>>>>>>> aa533852571a35df5f910026691be1242399df24
   var i = 0;
   do {
     i = i + 1;
